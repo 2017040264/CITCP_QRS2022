@@ -1,0 +1,105 @@
+
+一：提出假设
+原假设：H0:我们的PA方法在90%的情况下有所改进有改进 new>old
+备择假设：H1:我们的PA方法在不到90%的情况下有所改进没有改进。new<=old
+
+二：检验的统计量
+重复30次实验。拒绝域0.05。
+服从二项分布，要不
+X~B(30,0.9)
+
+三：确定拒绝域：0.05
+置信区间也就是0.95
+
+
+四、计算P值
+
+
+五、检查样本结果是否落在拒绝域内
+
+
+
+六、得出结果论
+
+apacomm 23,7
+
+显著性检验： apache_commons napfd 0.2654067705817577 True
+显著性检验： apache_commons recall 1.0 True
+显著性检验： apache_commons ttf 0.6667706903730536 True
+显著性检验： apache_drill napfd 0.9719700513539247 True
+显著性检验： apache_drill recall 0.6986216033540656 True
+显著性检验： apache_drill ttf 0.8229590816571593 True
+显著性检验： apache_hive napfd 0.2087619437733453 True
+显著性检验： apache_hive recall 0.008409193568697624 False
+显著性检验： apache_hive ttf 0.08965050907665524 True
+显著性检验： apache_parquet napfd 0.005274728863986755 False
+显著性检验： apache_parquet recall 0.22559884982855186 True
+显著性检验： apache_parquet ttf 0.36082578810736776 True
+显著性检验： apache_tajo napfd 0.09883933329881617 True
+显著性检验： apache_tajo recall 7.207954776370982e-10 False
+显著性检验： apache_tajo ttf 8.587206481761169e-08 False
+显著性检验： dspace napfd 9.455149082208027e-07 False
+显著性检验： dspace recall 3.0224127314400253e-07 False
+显著性检验： dspace ttf 0.00015568938324540533 False
+显著性检验： google_auto napfd 0.1824695178177587 True
+显著性检验： google_auto recall 0.8762319009082336 True
+显著性检验： google_auto ttf 0.029105680557926568 True
+显著性检验： google_closure napfd 0.009626033161438355 False
+显著性检验： google_closure recall 0.2633810526096563 True
+显著性检验： google_closure ttf 0.2745819266129621 True
+显著性检验： google_guava napfd 0.2088496736371706 True
+显著性检验： google_guava recall 0.1824197994668818 True
+显著性检验： google_guava ttf 0.1988097906314773 True
+显著性检验： iofrol napfd 0.2932376764409487 True
+显著性检验： iofrol recall 0.20023776515675787 True
+显著性检验： iofrol ttf 0.6442546163769851 True
+显著性检验： mybatis napfd 0.05755095913821957 True
+显著性检验： mybatis recall 0.09163029725361124 True
+显著性检验： mybatis ttf 0.20492227363579527 True
+显著性检验： paintcontrol napfd 0.4185181287911095 True
+显著性检验： paintcontrol recall 0.36726028420754453 True
+显著性检验： paintcontrol ttf 0.7921490422097051 True
+显著性检验： rails napfd 0.0005127552195463836 False
+显著性检验： rails recall 0.24625770705203132 True
+显著性检验： rails ttf 0.0848917665316106 True
+
+step:
+显著性检验： apache_commons napfd 0.0067837508983697595 False
+显著性检验： apache_commons recall 9.532020740691907e-05 False
+显著性检验： apache_commons ttf 0.0432058142996892 True
+显著性检验： apache_drill napfd 0.9723813110450665 True
+显著性检验： apache_drill recall 0.0015675978490065049 False
+显著性检验： apache_drill ttf 0.8391826190323222 True
+显著性检验： apache_hive napfd 0.19496980638650815 True
+显著性检验： apache_hive recall 0.7510419912094957 True
+显著性检验： apache_hive ttf 0.5908447568600115 True
+显著性检验： apache_parquet napfd 0.9865331087409765 True
+显著性检验： apache_parquet recall 0.9963953958078121 True
+显著性检验： apache_parquet ttf 0.9027921052120544 True
+显著性检验： apache_tajo napfd 0.11078556286052814 True
+显著性检验： apache_tajo recall 0.8833607268053958 True
+显著性检验： apache_tajo ttf 0.6190641701694934 True
+显著性检验： dspace napfd 0.5492989555952739 True
+显著性检验： dspace recall 0.4692917492779233 True
+显著性检验： dspace ttf 0.713260460514624 True
+显著性检验： google_auto napfd 0.28022598213843075 True
+显著性检验： google_auto recall 0.002753875840375941 False
+显著性检验： google_auto ttf 0.013562655674715188 True
+显著性检验： google_closure napfd 0.12954029419128693 True
+显著性检验： google_closure recall 0.21494557778263318 True
+显著性检验： google_closure ttf 0.23287802081387923 True
+显著性检验： google_guava napfd 0.8385024439080986 True
+显著性检验： google_guava recall 0.8987177480958535 True
+显著性检验： google_guava ttf 0.8880794962479255 True
+显著性检验： iofrol napfd 0.0231843907194679 True
+显著性检验： iofrol recall 0.052642354369261575 True
+显著性检验： iofrol ttf 0.0002375830032042837 False
+显著性检验： mybatis napfd 0.5905158581578217 True
+显著性检验： mybatis recall 0.7348784668266142 True
+显著性检验： mybatis ttf 0.2519659840045849 True
+显著性检验： paintcontrol napfd 0.27040669406543955 True
+显著性检验： paintcontrol recall 0.305393580933821 True
+显著性检验： paintcontrol ttf 0.37636533958435425 True
+显著性检验： rails napfd 5.3996006789376104e-14 False
+显著性检验： rails recall 1.720869990336957e-08 False
+显著性检验： rails ttf 1.136587299181776e-11 False
